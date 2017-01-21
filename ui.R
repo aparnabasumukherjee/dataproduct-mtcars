@@ -13,6 +13,9 @@ shinyUI(
                       helpText("The data was extracted from the 1974 Motor Trend US magazine,",
                                " and comprises fuel consumption and 10 aspects of automobile design and performance",
                                " for 32 automobiles (1973-74 models)."),
+                      h5("Codes for ui.R and server.R can be found at :"),
+                      a("www.github.com",href="https://github.com/aparnabasumukherjee/dataproduct-mtcars", target="_blank"),
+                      
                       p("A data frame with 32 observations on 11 variables.Using the application one can analyse each variable and also study the relationship between distance per fuel unit and various aspects of a vehicle"),
                       
                       p("  [, 1]   mpg	 Miles/(US) gallon"),
